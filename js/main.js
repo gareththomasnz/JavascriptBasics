@@ -75,6 +75,44 @@
 //console.log(people);
 //console.log(people.length);
 
-console.log(console);
-console.log(window);
-console.log(document);
+//console.log(console);
+//console.log(window);
+//console.log(document.URL);
+
+
+//var changeMe = document.getElementById('changeHTML');
+//changeMe.innerHTML = "The paragraph text";
+
+//var car = {
+//        name: 'Ford',
+//        model: 'Mustang',
+//        state: 'stopped',
+//        start: function(){
+//                car.state = 'on';
+//        }
+//};
+//car.stop = function(){
+//        car.state = 'off';
+//};
+//car.accelerate = function(){
+//        car.state = 'moving';
+//};
+//car.break = function(){
+//        car.state = 'breaking';
+//};
+//
+//car.stop();
+//console.log(car.state);
+
+//var time = new Date();
+//
+//console.log(time);
+
+var milliSeconds = Date.now();
+
+console.log(milliSeconds);
+
+
+
+
+
