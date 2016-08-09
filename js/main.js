@@ -108,11 +108,42 @@
 //
 //console.log(time);
 
-var milliSeconds = Date.now();
+//var milliSeconds = Date.now();
+//
+//console.log(milliSeconds);
 
-console.log(milliSeconds);
+//var createPerson = function(name, age, gender){
+//        console.log(arguments);
+//}
+//
+//var me = createPerson('Gareth', '48', 'Male');
+//
+//console.log(me);
 
+//var Car = function(name, model, year, color){
+//        this.name = 'morris';
+//        this.model = 'wagon';
+//        this.year = '1968';
+//        this.color = 'blue';
+//};
+//console.log(Car);
 
-
-
-
+//function Person(firstName, lastName, age){
+//        this.firstName = firstName;
+//        this.lastName  = lastName;
+//        this.age       = age;
+//}
+//
+//Person.prototype.getAge = function(){
+//        return this.age;
+//}
+//Person.prototype.getFullName = function(){
+//        return this.firstName + ', ' + this.lastName;
+//}
+//var will = new Person('Will', 'Smith', 34);
+//var bill = new Person('Bill', 'Gates', 84);
+//var steve = new Person('Steve', 'Jobs', 45);
+//
+//console.log(steve.getFullName());
+//console.log(will.getFullName());
+//console.log(bill.getFullName());
