@@ -147,3 +147,30 @@
 //console.log(steve.getFullName());
 //console.log(will.getFullName());
 //console.log(bill.getFullName());
+
+//document.getElementById("changeHTML").innerHTML = "xxx";
+//
+//var myVar = "Testing the console";
+//console.log( myVar, "Logged!");
+//console.info( myVar, "Logged!");
+//console.warn( myVar, "Logged!");
+//console.debug( myVar, "Logged!");
+//console.error( myVar, "Logged!");
+
+//console.log( '%c I see smurfs!', 'color:green; font-weight: bold;');
+
+//console.log( '%c Stand Out!', 'background:green; color:white; font-weight: bold;');
+
+//console.log(document.body);
+//var msg = '<B> This is the new message <BR> Did you get it?</B>';
+//document.getElementById("changeHTML").innerHTML = '<B> This is the new message <BR> Did you get it?</B>';
+//document.getElementById("changeHTML2").innerHTML = msg;
+//document.getElementById("changeHTML3").textContent = msg;
+
+document.getElementById("header").innerHTML = "How are you today?";
+
+console.log(document);
+
+
+
+
