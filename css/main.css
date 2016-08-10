@@ -5,7 +5,13 @@
    ========================================================================== */
 
 
-
+.newStyle{
+        color: #F8373B;
+        background-color: #FAFFCE;
+        text-align: center;
+        font-family: 'Cambria, "Hoefler Text", "liberation serif", Times, "Times New Roman", serif';
+        border: 1px solid black;
+}
 
 
 
