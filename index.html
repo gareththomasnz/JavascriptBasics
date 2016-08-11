@@ -50,7 +50,7 @@
       <div class="container">
         <h1 id="header">Hello, world!</h1>
         <p id="changeHTML">This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
-        <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>
+        <p><a id="mainButton" class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>
       </div>
     </div>
 
@@ -84,7 +84,7 @@
         <button id="btnE" class="btn-lg btn-default">Button E</button>
       </div>
       
-      <div id="output"></div>
+      
       
       <div class="row">
       <p>Lists</p>
@@ -100,7 +100,7 @@
       
       <div class="row">
     <p>Form</>
-    
+     <div id="output"></div>
         <form>
             Name:
             <input name="firstName" type="text" id="firstName" value="Name">
@@ -112,6 +112,12 @@
         </form>
       </div>
     
+    <div class="row">
+        <div id="animated">Moving Box</div>
+        <button onclick="start()">Start</button>
+        <button onclick="stop()">Stop</button>
+    </div>
+    <div id="output">There is no output yet</div>
       <footer>
         <p>&copy; Gareth Thomas 2016</p>
       </footer>

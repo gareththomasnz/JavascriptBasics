@@ -12,7 +12,14 @@
         font-family: 'Cambria, "Hoefler Text", "liberation serif", Times, "Times New Roman", serif';
         border: 1px solid black;
 }
-
+#animated{
+        position: absolute;
+        left: 10px;
+        top: 100px;
+        padding: 50px;
+        background: crimson;
+        color: white;
+}
 
 
 

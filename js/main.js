@@ -272,4 +272,72 @@
 //myMouse.addEventListener("mousemove", mouseMover);
 
 
+//var myOutput = document.getElementById("output");
+//var myButton = document.getElementById("submitButton");
+//var btnClick = function(){
+//        var messageOut;
+//        var name = document.getElementById("firstName").value;
+//        var email = document.getElementById("email").value;
+//        var re = /\S+@\S+\.\S+/;
+//                //if(name){messageOut="Hello " + name;}else{messageOut="mysterious person";}
+//                if(re.test(email)){messageOut="Valid Email " + name;}else{messageOut="Invalid Email";}
+//     myOutput.textContent = messageOut;  
+//};
+//myButton.addEventListener("click", btnClick);
+
+//document.getElementById("mainButton").addEventListener("click", function(event){
+//        event.preventDefault();
+//        console.log(event);
+//        console.log("clicked");
+//        });
+
+//console.log(window);
+//console.log(window.screen.height);
+//console.log(window.scrollX);
+//console.log(window.history.length);
+//console.log(window.location);
+//console.log(window.navigator.userAgent);
+//
+//window.open("", "", "width=100, height=100");
+//window.resizeTo(250, 250);
+//setInterval(function(){
+//        console.log("This message will show every 5 seconds");
+//        },5000);
+
+//var blinky;
+//var myButton = document.getElementById("submitButton");
+//blinky = setInterval(changeText, 100);
+//function changeText(){
+//        var Output = document.getElementById("output");
+//        myOutput.style.color = myOutput.style.color == "red" ? "black" : "red";
+//}
+//function stopChangeText(){
+//        clearInterval(blinky);
+//}
+//myButton.addEventListener("click", stopChangeText);
+
+var elm = document.getElementById("animated");
+var stopped;
+var requestId = 0;
+var starttime;
+
+function render(time){
+        if(!stopped){
+                elm.style.left = ((Date.now() - starttime) / 8 ) + "px";
+                requestId = window.requestAnimationFrame(render);
+        }
+}
+        function start(){
+                starttime = Date.now();
+                window.requestAnimationFrame(render);
+                stopped = false;
+        }        
+        function stop(){
+                if(requestId){
+                window.cancelAnimationFrame(requestId);
+        }
+        stopped = true;
+}
+
+
 
